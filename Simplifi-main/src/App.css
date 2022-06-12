@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Poppins:wght@400;700&display=swap');
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100vw;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.btn{
+  padding: 20px 40px;
+  margin: 20px;
+  background-color:rgb(13,110,253);
+  color:white;
+  margin: auto;
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.App{
+  width: fit-content;
+}
+
+.header{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+      font-weight:600;
+  font-size: 20px;
+}
+
+.f{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.f label{
+  padding: 10px;
+}
